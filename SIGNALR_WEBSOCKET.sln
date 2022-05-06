@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - SIGNALR_WEBSOCKET_SERVER", "1 - SIGNALR_WEBSOCKET_SERVER", "{592FCA83-F987-4A36-920F-84C5B6D66971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIGNALR_WEBSOCKET_SERVER", "SIGNALR_WEBSOCKET_SERVER\SIGNALR_WEBSOCKET_SERVER.csproj", "{144F7359-A3D4-4A2F-B6D3-3C446443F6B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - SIGNALR_WEBSOCKET_CLIENT", "2 - SIGNALR_WEBSOCKET_CLIENT", "{EE840D17-5923-4B79-928F-A116A405E4C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIGNALR_WEBSOCKET_CLIENT", "SIGNALR_WEBSOCKET_CLIENT\SIGNALR_WEBSOCKET_CLIENT.csproj", "{9AAE4128-3217-4022-8D56-ADC78AB9DF38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{144F7359-A3D4-4A2F-B6D3-3C446443F6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144F7359-A3D4-4A2F-B6D3-3C446443F6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144F7359-A3D4-4A2F-B6D3-3C446443F6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144F7359-A3D4-4A2F-B6D3-3C446443F6B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAE4128-3217-4022-8D56-ADC78AB9DF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAE4128-3217-4022-8D56-ADC78AB9DF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAE4128-3217-4022-8D56-ADC78AB9DF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAE4128-3217-4022-8D56-ADC78AB9DF38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{144F7359-A3D4-4A2F-B6D3-3C446443F6B4} = {592FCA83-F987-4A36-920F-84C5B6D66971}
+		{9AAE4128-3217-4022-8D56-ADC78AB9DF38} = {EE840D17-5923-4B79-928F-A116A405E4C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {696BF333-129B-4701-8468-B1079D001E0C}
+	EndGlobalSection
+EndGlobal
